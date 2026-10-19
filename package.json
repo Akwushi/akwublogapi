@@ -1,0 +1,31 @@
+{
+  "name": "akwushi",
+  "version": "1.0.0",
+  "description": "Akwublog using Node js and MongoDB",
+  "keywords": [
+    "Node",
+    "js",
+    "Express",
+    "js",
+    "Mongoose"
+  ],
+  "license": "ISC",
+  "author": "Akwushi",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.31.0",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.2",
+    "multer": "^1.4.5-lts.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "nodemon": "^3.1.11"
+  }
+}
